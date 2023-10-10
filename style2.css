@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url(1326193.png) ;
+    color:white;
+}
+
+a{
+    color: yellow;
+    font-weight: bolder;
+    }
+
+ h1{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding:0px; 
+ } 
+ p{
+    font-size: medium;
+ }
+ .image{
+    transition: -50% -50%;
+ }
+ .container{
+margin:20px;
+padding: 20px;
+ }
+ .subforum{
+    margin-top:7px;
+ }
+
+ .subforum-title{
+    background-color:red ;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px;
+ }
+
+ .subforum-row{
+    display:grid;
+    grid-template-columns: 7% 61% 15% 17%;
+}
+
+.subforum-column{
+    padding:10px;
+    margin:4px;
+    border-radius: 5px;
+    background-color:black ;
+}
+center{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.subforum-icon i{
+    font-size:50px;
+}
+
+header{
+    margin-inline:10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.bar-icon{
+    font-size:60px;
+    display: inline-block;
+    margin-right: 10px;
+    color: red;
+    cursor: pointer;
+}
+@font-face {
+    font-family: amsterdam;
+    src: url(Amsterdam-ZVGqm.ttf);
+}
+.brand{
+    font-size: 40px;
+    display:inline-block;
+    font-family:amsterdam;
+    color: aqua;
+    margin-left: 10px;
+   
+}
+
+
+    

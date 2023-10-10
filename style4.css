@@ -1,0 +1,66 @@
+*{
+    background-image: url(1326193.png);
+}
+@font-face {
+    font-family: amsterdam;
+    src: url(Amsterdam-ZVGqm.ttf);
+}
+h1{
+    font-size: 30px;
+    font-family:amsterdam;
+    font-weight: bolder;
+    padding:15px; 
+    color: white;
+    background-color:red ;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 10px;
+}
+p{
+    font-size:18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    padding: 5px;
+    margin:10px;
+   
+}   
+.comment-box{
+    width:50%;
+    border:1px solid white;
+    margin:50px;
+    padding:10px 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1 px grey;
+}
+.comment-box p{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.comment-form input , .comment-form textarea{
+    width:100%;
+    padding: 10px;px;
+    margin:5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid grey;
+    color: red;
+}
+.comment-form button{
+    margin:10px;
+    background-color: yellow;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    color:white;
+}
+.button:hover{
+    color: white;
+    background-color: white;
+}
